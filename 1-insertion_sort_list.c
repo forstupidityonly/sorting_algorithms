@@ -1,6 +1,9 @@
 #include "sort.h"
 /**
- * 
+ * switcher - helper
+ * @a: the first val
+ * @b: the second val
+ * Return: no 
  */
 void switcher(listint_t *a, listint_t *b)
 {
@@ -14,7 +17,9 @@ a->prev = b;
 b->next = a;
 }
 /**
- * insertion_sort_list - 
+ * insertion_sort_list - sort linked list with insurtion
+ * @list: the list
+ * Return: no
  */
 void insertion_sort_list(listint_t **list)
 {
