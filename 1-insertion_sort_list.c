@@ -19,7 +19,7 @@ b->next = a;
 /**
  * insertion_sort_list - sort linked list with insurtion
  * @list: the list
- * Return: no
+ * Return: nope
  */
 void insertion_sort_list(listint_t **list)
 {
