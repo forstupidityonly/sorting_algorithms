@@ -21,6 +21,8 @@ void selection_sort(int *array, size_t size)
 {
 	unsigned long int itr, jtr, min;
 
+	if (!array || size < 2)
+		return;
 	for (itr = 0; itr < size - 1; itr++)
 	{
 		min = itr;
@@ -30,6 +32,7 @@ void selection_sort(int *array, size_t size)
 				min = jtr;
 		}
 		switcher(&array[min], &array[itr]);
-		print_array(array, size);
+		if (min != itr)
+			print_array(array, size);
 	}
 }
