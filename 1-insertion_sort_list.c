@@ -3,7 +3,7 @@
  * switcher - helper
  * @a: the first val
  * @b: the second val
- * Return: no 
+ * Return: no
  */
 void switcher(listint_t *a, listint_t *b)
 {
@@ -25,7 +25,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *a, *b;
 
-	if(!(list && *list && (*list)->next))
+	if (!(list && *list && (*list)->next))
 		return;
 	a = (*list)->next;
 	while (a)
