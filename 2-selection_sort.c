@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * sqitcher - helper
+ * switcher - helper
  * @a: the array[min]
  * @b: the array[itr]
  * Return: no
